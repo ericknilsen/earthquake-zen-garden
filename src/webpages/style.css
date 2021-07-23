@@ -1,0 +1,136 @@
+html *
+{
+   font-family: Arial !important;
+}
+
+/* Navigation bar */
+.navbar {
+  overflow: hidden;
+  background-color: #ededed;
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+  display: flex;
+}
+/* End  Navigation bar */
+
+/* Items inside the navbar */
+.logo {
+  float: left;
+  display: block;
+  color: #777777;
+  text-align: center;
+  padding: 22px 16px;
+  text-decoration: none;
+}
+
+.title {
+  float: left;
+  display: block;
+  color: #777777;
+  text-align: center;
+  padding: 1px 16px;
+  text-decoration: none;
+}
+
+.spacer {
+  flex: 1;
+}
+
+.profile {
+  float: right;
+  display: block;
+  color: #6600cc;
+  text-align: center;
+  padding: 35px 16px;
+  text-decoration: none;
+}
+/* End Items inside the navbar */
+
+/* Profile page */
+.main-profile {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  max-width: 450px;
+  color: #777777;
+  display: flex;
+}
+
+.main-profile td {
+  min-width: 100px;
+  vertical-align: text-bottom;
+}
+
+.header-profile {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  max-width: 30px;
+  color: #444444;
+  display: flex;
+}
+/* End Profile page */
+
+/* Home page */
+.main-home {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  max-width: 650px;
+  color: #777777;
+  display: flex;
+}
+
+.main-home table {
+  padding: 10px;
+  border-spacing: 20px 0;
+}
+
+.header-home {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  max-width: 300px;
+  color: #444444;
+  text-align: center;
+}
+
+.mag {
+  text-align: center;
+}
+/* End Home page */
+
+/* Detail page */
+.header-detail {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  max-width: 300px;
+  color: #444444;
+  display: flex;
+}
+
+.main-detail td:first-child {
+  color: #444444;
+  min-width: 100px;
+}
+
+.main-detail {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  max-width: 450px;
+  color: #777777;
+  display: flex;
+  font-weight: bold;
+}
+/* End Detail page */
+
+/*
+Color palette:
+#ededed
+#777777
+#444444
+#0011bb
+#6600cc
+*/
