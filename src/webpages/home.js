@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import data from '../data.json';
 
 let orderingField = '';
-let flagsMap = {'mag': 1, 'title': 1, 'time': 1};
+let flagsMap = { 'mag': 1, 'title': 1, 'time': 1 };
 
 const Home = () => {
 
@@ -26,17 +26,17 @@ const Home = () => {
         flagsMap[orderingField] = -flagsMap[orderingField];
     }
 
-    const sortByMagnitude = () => { 
+    const sortByMagnitude = () => {
         orderingField = 'mag';
         sort();
     }
 
-    const sortByTitle = () => { 
+    const sortByTitle = () => {
         orderingField = 'title';
         sort();
     }
 
-    const sortByTime = () => { 
+    const sortByTime = () => {
         orderingField = 'time';
         sort();
     }

@@ -1,6 +1,6 @@
 html *
 {
-   font-family: Arial !important;
+   font-family: sans-serif !important;
 }
 
 /* Navigation bar */
@@ -39,7 +39,6 @@ html *
 .profile {
   float: right;
   display: block;
-  color: #6600cc;
   text-align: center;
   padding: 35px 16px;
   text-decoration: none;
